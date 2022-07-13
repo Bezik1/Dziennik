@@ -1,0 +1,6 @@
+@import './Variables.scss';
+
+.cards{
+    color: $w-color;
+    background: linear-gradient(120deg, $header-color, $b-color, $header-color);
+}

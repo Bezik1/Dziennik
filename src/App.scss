@@ -1,0 +1,89 @@
+@import './components/Layout/Variables.scss';
+
+.App {
+  font: 100% $basic-font;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  background-color: $basic-color;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  font: 100% $basic-font;
+  background-color: $basic-color;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: $w-color;
+}
+
+.App-link {
+  color: $blue-color;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.plan{
+  position: absolute;
+  left: 30px;
+  top: 113px;
+}
+
+.p-3{
+  width: 130px;
+  margin-left: 20px;
+  float: left;
+}
+
+.table{
+  color: $w-color;
+}
+
+.h33{
+  height: 60px;
+  line-height: 5px;
+  padding: 10px;
+}
+
+.logout {
+  background-color: transparent;
+  text-decoration: none;
+  border: none;
+}
+
+@media (max-width:990px) {
+  .t{
+    font-size: 12px;
+  }
+}
+
+$slick-font-path: "~slick-carousel/slick/fonts/";
+$slick-loader-path: "~slick-carousel/slick/";
+
+@import '~slick-carousel/slick/slick', '~slick-carousel/slick/slick-theme';
+$slick-font-path: "~slick-carousel/slick/fonts/" !default;
+$slick-font-family: "slick" !default;
+$slick-loader-path: "~slick-carousel/slick/" !default;
+$slick-arrow-color: black !default; 
+
+.tables{
+  cursor: grab;
+}

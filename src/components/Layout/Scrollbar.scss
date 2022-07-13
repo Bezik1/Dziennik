@@ -1,0 +1,16 @@
+@import './Variables.scss';
+
+::-webkit-scrollbar-thumb{
+    transition: 1s;
+    background: $w-color;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: rgb(201, 201, 201);  
+}
+
+::-webkit-scrollbar{
+    width: 17px;
+    background:  $bg-color;
+}

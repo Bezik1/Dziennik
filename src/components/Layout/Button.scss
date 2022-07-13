@@ -1,0 +1,25 @@
+@import './Variables.scss';
+
+select.buttons{
+    cursor: pointer;
+    min-width: 7em;
+    width: 7em;
+    padding: 0.5em 1em;
+    background: transparent;
+    border: $dark-color solid;
+    border-radius: 1em;
+    color: inherit;
+    font: inherit;
+    background-color: transparent;
+    appearance: none;
+    transition: 1s;
+  }
+  select.buttons option {
+    text-align: center;
+    background-color: $dark-color;
+}
+
+select.buttons:hover{
+  transition: 1s;
+  border: $w-color solid;
+}

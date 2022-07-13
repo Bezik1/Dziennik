@@ -1,0 +1,25 @@
+@import './Variables.scss';
+
+.links{
+    height: 25em;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.link{
+    font-size: 25px;
+    background-color: $w-color;
+    border-radius: 2em;
+    margin: 50px;
+    color: $dark-color;
+    padding: 75px;
+}
+
+.link:hover{
+    background-color: #eceaea;
+    color: $dark-color;
+    text-decoration-line: none;
+}
